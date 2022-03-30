@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassTestActivity">
+
+    <Button
+        android:id="@+id/constructorBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="类的构造"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30px"/>
+
+    <Button
+        android:id="@+id/dataTransforBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity跳转数据传递"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constructorBtn"
+        android:layout_marginTop="50px"/>
+
+    <Button
+        android:id="@+id/contactPermissionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取通讯录权限"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataTransforBtn"
+        android:layout_marginTop="50px"/>
+
+    <Button
+        android:id="@+id/multPermissionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="批量申请权限"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactPermissionBtn"
+        android:layout_marginTop="50px"/>
+
+    <Button
+        android:id="@+id/contentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择文件"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multPermissionBtn"
+        android:layout_marginTop="50px"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

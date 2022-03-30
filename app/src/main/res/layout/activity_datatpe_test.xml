@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataTypeTestActivity">
+
+    <TextView
+        android:id="@+id/contenttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loadimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击按钮01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/arrayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数组操作按钮"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loadimg"/>
+
+    <Button
+        android:id="@+id/listBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="集合操作按钮"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arrayBtn"/>
+
+    <Button
+        android:id="@+id/whenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多路分支操作按钮"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listBtn"/>
+
+    <Button
+        android:id="@+id/funcBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="泛型函数按钮"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/whenBtn"/>
+
+    <Button
+        android:id="@+id/classBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="类和对象测试"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/funcBtn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
