@@ -1,6 +1,7 @@
 package com.lixiang.test.kotlindemo.imagepicker
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Canvas
 import android.graphics.DashPathEffect
@@ -122,6 +123,7 @@ class ImgPickerActivity : AppCompatActivity() {
         }
 
         folderMoreLay.setOnClickListener {
+            mLargeRecyclerView?.visibility = View.GONE
             if(mFolderRecyclerView?.isShown == true){
                 showFolderRecyclerView(false)
             }else{
@@ -142,6 +144,12 @@ class ImgPickerActivity : AppCompatActivity() {
             finish()
         }
 
+        selectCheck.setOnClickListener {
+            var resultitems = mSelectedItems.map { it.path }
+            setResult(RESULT_OK, Intent().putExtra("selectdata", resultitems.toTypedArray()))
+            finish()
+        }
+
     }
 
     fun loadPictureData(){
@@ -150,6 +158,7 @@ class ImgPickerActivity : AppCompatActivity() {
                 mFolderItems.clear()
                 mSelectedItems.clear()
                 mImgItems.clear()
+                refreshSelectCheck()
                 mFolderItems.addAll(list)
                 mImgItems.addAll(mFolderItems[0].items)
                 mImgAdapter.notifyDataSetChanged()
@@ -166,6 +175,7 @@ class ImgPickerActivity : AppCompatActivity() {
             }else{
                 mSelectedItems.add(item)
             }
+            refreshSelectCheck()
             mImgAdapter.notifyItemChanged(mImgAdapter.datas.indexOf(item))
             mLargeAdapter.notifyItemChanged(mLargeAdapter.datas.indexOf(item))
         }
@@ -178,6 +188,7 @@ class ImgPickerActivity : AppCompatActivity() {
             mImgItems.clear()
             mImgItems.addAll(folderItem.items)
             mSelectedItems.clear()
+            refreshSelectCheck()
             showFolderRecyclerView(false)
             mImgAdapter.notifyDataSetChanged()
         }
@@ -202,6 +213,15 @@ class ImgPickerActivity : AppCompatActivity() {
             folderMoreImg.rotation = 0f
             mFolderRecyclerView?.visibility = View.GONE
             mRecyclerView?.visibility = View.VISIBLE
+        }
+    }
+
+    fun refreshSelectCheck(){
+        if(!mSelectedItems.isEmpty()){
+            selectCheck.visibility = View.VISIBLE
+            selectCheck.text = "${resources.getText(R.string.select)} ${mSelectedItems.size}/9"
+        }else{
+            selectCheck.visibility = View.GONE
         }
     }
 

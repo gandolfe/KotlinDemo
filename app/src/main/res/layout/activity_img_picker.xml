@@ -54,6 +54,20 @@
                 android:src="@drawable/icon_picker_more" />
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/selectCheck"
+            android:layout_width="120px"
+            android:layout_height="50px"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/bg_picker_check_button"
+            android:text="选择"
+            android:textSize="25sp"
+            android:textColor="@color/picker_color_select"
+            android:visibility="gone"/>
+
     </RelativeLayout>
 
     <View
