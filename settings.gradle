@@ -1,2 +1,4 @@
 rootProject.name = "KotlinDemo"
 include ':app'
+include ':coreplayer'
+include ':player-ijk'

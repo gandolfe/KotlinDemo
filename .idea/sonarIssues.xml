@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/coreplayer/src/main/java/com/lixiang/test/coreplayer/IMediaPlayer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/coreplayer/src/main/java/com/lixiang/test/coreplayer/ui/IPlayerView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/coreplayer/src/main/java/com/lixiang/test/coreplayer/ui/VedioView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/player-ijk/src/main/java/com/lixiang/test/player_ijk/IjkPlayer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/Android.mk">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/src/main/java/com/chehejia/car/chargemanagement/ChargeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/src/main/java/com/chehejia/car/chargemanagement/ChargeManagementApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/src/main/java/com/chehejia/car/chargemanagement/contract/CarChargeContract.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/src/main/java/com/chehejia/car/chargemanagement/presenter/CarChargePresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/src/main/java/com/chehejia/car/chargemanagement/view/SocDataCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/src/main/res/drawable/charge_animation.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/config.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/Android.mk">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/src/androidTest/java/com/chehejia/car/chargemanagement/data/repository/CarPropertyRepositoryImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/src/androidTest/java/com/chehejia/car/chargemanagement/data/repository/CloudDataRepositoryImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/src/main/java/com/chehejia/car/chargemanagement/data/repository/CarPropertyRepositoryImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/src/main/java/com/chehejia/car/chargemanagement/data/repository/CloudDataRepositoryImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/src/main/java/com/chehejia/car/chargemanagement/data/repository/EventTrackingRepositoryImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/data/src/main/java/com/chehejia/car/chargemanagement/data/utils/CarSignalConst.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/domain/src/main/java/com/chehejia/car/chargemanagement/domain/model/ReserveData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/domain/src/main/java/com/chehejia/car/chargemanagement/domain/repository/CarSignalRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/domain/src/main/java/com/chehejia/car/chargemanagement/domain/repository/CloudDataRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sourcecode/R/chargemanagement/domain/src/main/java/com/chehejia/car/chargemanagement/domain/repository/EventTrackingRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
